@@ -21,7 +21,7 @@ export default function Plan()  {
                     </View>
                     <View style={styles.slider}>
                       <TouchableOpacity style={{width: 24, height: 24, alignItems: 'center', justifyContent: 'center'}}>
-                       <Image source={require('../assets/Vector2.png')}/>
+                       <Image source={require('../assets/home_page/Vector2.png')}/>
                       </TouchableOpacity>
 
                         {
@@ -47,7 +47,7 @@ export default function Plan()  {
                        {/*<TouchableOpacity style={styles.passiveSlider}><Text> 16 </Text></TouchableOpacity>*/}
                        {/*<TouchableOpacity style={styles.passiveSlider}><Text> 17 </Text></TouchableOpacity>*/}
                       <TouchableOpacity style={{width: 24, height: 24, alignItems: 'center', justifyContent: 'center'}}>
-                       <Image source={require('../assets/Vector.png')}/>
+                       <Image source={require('../assets/home_page/Vector.png')}/>
                       </TouchableOpacity>
                     </View>
                     <View style={{alignItems: 'center'}}>

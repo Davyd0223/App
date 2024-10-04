@@ -1,5 +1,6 @@
 import {StyleSheet, View, TextInput, Image, TouchableOpacity, SafeAreaView} from 'react-native';
 import Plan from './components/Plan';
+import Audiopage from './components/Audiopage';
 
 
 export default function App() {
@@ -9,32 +10,33 @@ export default function App() {
 
     <View style={styles.screen}>
         <View style={styles.search}>
-          <View style={styles.input}>
-            <Image style={styles.icon} source={require('./assets/ser.png')}/>
+          {/* <View style={styles.input}>
+            <Image style={styles.icon} source={require('./assets/home_page/ser.png')}/>
 
             <TextInput style={styles.ti} placeholder="Поиск" onTextInput={'ghbtdn'}/>
 
-          </View>
-          <TouchableOpacity style={styles.setting}>
-            <Image source={require('./assets/Hicon 3/Outline/Filter 5.png')}/>
-          </TouchableOpacity>
+          </View> */}
+          {/* <TouchableOpacity style={styles.setting}>
+            <Image source={require('./assets/home_page/Hicon 3/Outline/Filter 5.png')}/>
+          </TouchableOpacity> */}
         </View>
-        <Plan/>
+        {/* <Plan/> */}
+        <Audiopage/>
         <View style={styles.buttonicon}>
           <TouchableOpacity>
-            <Image source={require('./assets/Active 2/Inactive=Off.png')}/>
+            <Image source={require('./assets/home_page/Active 2/Inactive=Off.png')}/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={require('./assets/Active 4/Inactive=Off.png')}/>
+            <Image source={require('./assets/home_page/Active 4/Inactive=Off.png')}/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={require('./assets/Active 6/Inactive=Off.png')}/>
+            <Image source={require('./assets/home_page/Active 6/Inactive=Off.png')}/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={require('./assets/Active 7/Inactive=On.png')}/>
+            <Image source={require('./assets/home_page/Active 7/Inactive=On.png')}/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={require('./assets/Active 10/Inactive=Off.png')}/>
+            <Image source={require('./assets/home_page/Active 10/Inactive=Off.png')}/>
           </TouchableOpacity>
         </View>
     </View>
